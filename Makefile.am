@@ -1,0 +1,1 @@
+SUBDIRS = src/bubbleSort src/heapSort  src/mergeSort  src/quickSort
