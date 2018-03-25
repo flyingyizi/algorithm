@@ -11,7 +11,7 @@ automake --foreign --add-missing
 autoconf
 ```
 
-- step1:
+- step1: 得到configure.scan 并将它改名为configure.ac
 ```shell
 tu_xu@desktop- MINGW64 ~/algorithm
 $ autoscan
