@@ -4,11 +4,12 @@
 
 - 新增 nestStaticlibDemo ， 演示创建静态库
 - 新增 nestdynlibDemo， 演示创建动态库
+- 新增jsonxx， 演示库创建，已经prog同时创建
 
 #
 
 
-该demo是参照[[使用 GNU autotools 改造一个软件项目]](http://www.cppblog.com/liu1061/articles/54740.html)而来。
+该demo是参照[[使用 GNU autotools 改造一个软件项目]](http://www.cppblog.com/liu1061/articles/54740.html)而来。[[使用 GNU Libtool 创建库]](https://www.ibm.com/developerworks/cn/aix/library/1007_wuxh_libtool/)
 
 注意，每次修改了 configure.ac 或 Makefile.am 等 autotools 输入文件后都需要再次运行aclocal, automake,  autoconf 这些命令，为了方便起见，可以将他们放到一个 shell脚本里面，例如:
 ```shell
