@@ -1,1 +1,1 @@
-SUBDIRS = src/bubbleSort src/heapSort  src/mergeSort  src/quickSort
+SUBDIRS = src/bubbleSort src/heapSort  src/mergeSort  src/quickSort src/nestStaticlibDemo
